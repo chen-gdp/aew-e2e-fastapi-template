@@ -24,9 +24,9 @@ Open <http://127.0.0.1:8000/docs> for the generated API documentation.
 2. Create an issue using
    [`fixtures/issues/001-task-search.md`](fixtures/issues/001-task-search.md).
 3. Install the AEW `.agents/` payload into the disposable repository.
-4. Invoke `@.agents/commands/gl-goal.md` or the registered `/gl-goal` command
+4. Invoke `@.agents/commands/gl-issue-to-pr.md` or the registered `/gl-issue-to-pr` command
    with the issue URL.
-5. Review the spec PR, request changes or approve it, then resume `/gl-goal`.
+5. Review the spec PR, request changes or approve it, then resume `/gl-issue-to-pr`.
 6. Verify the implementation PR and run `pytest`.
 
 Do not run destructive E2E experiments directly against this template. Create
